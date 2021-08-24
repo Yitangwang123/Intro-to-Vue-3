@@ -13,13 +13,18 @@ const app = Vue.createApp({
         }
     },
     methods: {
-      // removeFromCart() {
-      //   if (cart != 0) {
-      //     this.cart -= 1;
-      //   }
-      // },
+       removeFromCart() {
+        if (this.cart != 0) {
+           this.cart -= 1;
+         }
+       },
       updateImage(variantImage) {
         this.image =variantImage
       }
     }
 })
+
+
+ // if (this.cart >= 1) {
+ //                this.cart -= 1
+ //            }
