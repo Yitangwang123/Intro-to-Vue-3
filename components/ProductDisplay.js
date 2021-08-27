@@ -4,7 +4,7 @@ app.component('product-display', {
       type: Boolean,
       require: true
     }
-  }
+  },
   template:
   /*html*/
    `<div class="product-display">
