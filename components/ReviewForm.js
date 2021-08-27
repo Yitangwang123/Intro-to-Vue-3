@@ -29,16 +29,19 @@ app.component('review-form', {
       }
     },
     methods() {
-      onSubmit {
-        let productReview= {
+      onSubmit() {
+        let productReview = {
           name: this.name,
           review: this.review,
           rating: this.rating
         }
         this.$emit('review-submitted', productReview)
+
         this.name = ''
         this.review = ''
         this.rating = null
       }
     }
 })
+
+
