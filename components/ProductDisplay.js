@@ -66,7 +66,7 @@ app.component('product-display', {
           this.$emit( 'add-to-cart', this.variants[this.selectedVariant].id)
       },
       removeFromCart() {
-          this.$emit( 'remove-to-cart', this.variants[this.selectedVariant].id)
+          this.$emit( 'remove-from-cart', this.variants[this.selectedVariant].id)
       },
       updateVariant(index) {
           this.selectedVariant = index
