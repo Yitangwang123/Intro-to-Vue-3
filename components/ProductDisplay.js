@@ -2,7 +2,7 @@ app.component('product-display', {
   props: {
     premium: {
       type: Boolean,
-      require: true
+      required: true
     }
   },
   template:
